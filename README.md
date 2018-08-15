@@ -7,7 +7,7 @@ Boolean<br>
 Word<br>
 Sentence<br>
 Paragraph<br>
-Text<br><br>
+Text<br>
 Title<br>
 Name<br>
 First Name<br>
