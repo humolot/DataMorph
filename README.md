@@ -37,7 +37,7 @@ email<br>
 Company email<br>
 Username<br>
 Password<br>
-Domain Name<br><br>
+Domain Name<br>
 Domain Word<br>
 tld<br>
 url<br>
@@ -57,7 +57,7 @@ Credit Card Number<br>
 credit Card Exp Date<br>
 Credit Card Details<br>
 SWIFTBIC Number<br>
-Hex Color<br><br>
+Hex Color<br>
 rgb Color<br>
 CSS rgb Color<br>
 Color Name<br>
@@ -85,21 +85,21 @@ https://www.codeigniter.com/<br><br>
 
 <h3>CONFIGURE THE WEBSERVER:</h3>
 
-	Edit the config file located at application/config/config.php<br>
-	Change:<br>
-		$config['base_url'] = 'http://localhost/datamorph';<br>
-	to:<br>
-		$config['base_url'] = 'http://mysite.com';<br><br>
+	Edit the config file located at application/config/config.php
+	Change:
+		$config['base_url'] = 'http://localhost/datamorph';
+	to:
+		$config['base_url'] = 'http://mysite.com';
 
 <h3>CONFIGURE WEBSERVER MOD_REWRITE:</h3>
 
-	Edit the .htaccess file located at the root of your installation.<br>
-	Change:<br>
-		RewriteBase /datamorph<br>
+	Edit the .htaccess file located at the root of your installation.
+	Change:
+		RewriteBase /datamorph
 	to:<br>
-		if your app is installed in a directory<br>
-			RewriteBase /folder-name<br>
-		if your app is installed in a sub-directory<br>
-			RewriteBase /folder-name/sub-folder-name<br>
-		if your app is installed at the root of your server<br>
-			RewriteBase /<br>
+		if your app is installed in a directory
+			RewriteBase /folder-name
+		if your app is installed in a sub-directory
+			RewriteBase /folder-name/sub-folder-name
+		if your app is installed at the root of your server
+			RewriteBase /
